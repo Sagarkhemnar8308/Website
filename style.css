@@ -80,6 +80,11 @@ section .title::before {
     transform: translateX(-50%);
 }
 
+.navbar {
+    background-color: black; /* Change this to the desired color */
+    color: white; /* Change this to the desired text color */
+}
+
 .custom-toggler.navbar-toggler {
     border-color: lightgreen;
     background-color: #f1f1f1;
