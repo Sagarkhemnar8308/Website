@@ -131,7 +131,7 @@ section .title::after {
 
 .navbar .logo a {
     color: #fff;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 600;
 }
 
@@ -169,7 +169,7 @@ section .title::after {
 /* menu btn styling */
 .menu-btn {
     color: #fff;
-    font-size: 23px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
 }
@@ -690,6 +690,9 @@ footer span a:hover {
     font-weight: bold;
     display: block;
 }
+.home{
+    background-color: #222;
+}
 
 
 /* responsive media query start */
@@ -715,14 +718,19 @@ footer span a:hover {
     .menu-btn i.active:before {
         content: "\f00d";
     }
-
+    .bg{
+        background-image: url("./images/img.jpg");
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
     .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #333;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
